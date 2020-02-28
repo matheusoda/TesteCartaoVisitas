@@ -1,0 +1,48 @@
+body{
+  background-color: black;
+}
+
+.container{
+  background-image: url(./imagens/backgorund.png);
+  position: relative;
+  width: 600px;
+  height: 300px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: skyblue;
+}
+
+li{
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.nome{
+  font-size: 2em;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.instagram{
+  list-style-image: url(imagens/Insta.png);
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+.twitter{
+  list-style-image: url(imagens/Twitter.png);
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+.youtube{
+  list-style-image: url(imagens/Youtube.png);
+  font-size: 2em;
+  margin-left: 20px;
+}
